@@ -21,35 +21,35 @@ export default function Analytics() {
             title="Home"
             className="sidebar-icon"
           >
-            🏠
+            Home
           </li>
           <li
             onClick={() => handleNavigation("/projects")}
             title="Projects"
             className="sidebar-icon"
           >
-            📁
+             Projects
           </li>
           <li
             onClick={() => handleNavigation("/timesheet")}
             title="Timesheet"
             className="sidebar-icon"
           >
-            📅
+             Timesheet
           </li>
           <li
             onClick={() => handleNavigation("/analytics")}
             title="Analytics"
             className="sidebar-icon"
           >
-            📊
+             Analytics
           </li>
           <li
             onClick={() => handleNavigation("/settings")}
             title="Settings"
             className="sidebar-icon"
           >
-            ⚙️
+             Settings
           </li>
         </ul>
       </div>
@@ -124,10 +124,10 @@ export default function Analytics() {
           <div className="activity">
             <h3>Performance Metrics</h3>
             <ul>
-              <li>📈 Team Efficiency: +12% this month</li>
-              <li>✓ Completed Tasks: 145</li>
-              <li>⏰ Avg Task Duration: 2.5 days</li>
-              <li>👥 Team Capacity: 85% utilized</li>
+              <li>Team Efficiency: +12% this month</li>
+              <li> Completed Tasks: 145</li>
+              <li> Avg Task Duration: 2.5 days</li>
+              <li> Team Capacity: 85% utilized</li>
             </ul>
           </div>
         </div>

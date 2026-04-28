@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Dashboard.css";
 import Header from "./Header";
+import Analytics from './Analytics';
 
 export default function Settings() {
   const navigate = useNavigate();
@@ -34,35 +35,35 @@ export default function Settings() {
             title="Home"
             className="sidebar-icon"
           >
-            🏠
+            Home
           </li>
           <li
             onClick={() => handleNavigation("/projects")}
             title="Projects"
             className="sidebar-icon"
           >
-            📁
+            Projects
           </li>
           <li
             onClick={() => handleNavigation("/timesheet")}
             title="Timesheet"
             className="sidebar-icon"
           >
-            📅
+            Timesheet
           </li>
           <li
             onClick={() => handleNavigation("/analytics")}
             title="Analytics"
             className="sidebar-icon"
           >
-            📊
+            Analytics
           </li>
           <li
             onClick={() => handleNavigation("/settings")}
             title="Settings"
             className="sidebar-icon"
           >
-            ⚙️
+            Settings
           </li>
         </ul>
       </div>
